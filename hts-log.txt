@@ -1,0 +1,17 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 06 Mar 2024 18:19:43 at http://cs.wix.com/website-template/view/html/1896?originUrl=https%3A%2F%2Fcs.wix.com%2Fwebsite%2Ftemplates&tpClick=view_button&esi=6b4e7a47-d68f-438d-8b3c-00804849355c +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://cs.wix.com/website-template/view/html/1896?originUrl=https%3A%2F%2Fcs.wix.com%2Fwebsite%2Ftemplates&tpClick=view_button&esi=6b4e7a47-d68f-438d-8b3c-00804849355c -O1 "C:\My Web Sites\wui x" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+18:19:50	Warning: 	Retry after error 502 (Bad Gateway) at link https://static.parastorage.com/polyfill/v3/polyfill.min.js?features=default,es6,es7,es2017,es2018,es2019,fetch&flags=gated&unknown=polyfill (from https://cs.wix.com/website-template/view/html/1896?originUrl=https%3A%2F%2Fcs.wix.com%2Fwebsite%2Ftemplates&tpClick=view_button&esi=6b4e7a47-d68f-438d-8b3c-00804849355c)
+18:20:33	Warning: 	Retry after error 502 () at link https://static.parastorage.com/polyfill/v3/polyfill.min.js?features=default,es6,es7,es2017,es2018,es2019,fetch&flags=gated&unknown=polyfill (from https://cs.wix.com/website-template/view/html/1896?originUrl=https%3A%2F%2Fcs.wix.com%2Fwebsite%2Ftemplates&tpClick=view_button&esi=6b4e7a47-d68f-438d-8b3c-00804849355c)
+18:20:33	Error: 	"Forbidden" (403) at link https://static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/2c056da8-4920-4e20-8c69-8a6b315458a9.woff (from https://static.parastorage.com/services/third-party/fonts/Helvetica/fontFace.css)
+18:20:33	Error: 	"Forbidden" (403) at link https://static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/2381d918-136d-444f-8391-db0cba6da388.ttf (from https://static.parastorage.com/services/third-party/fonts/Helvetica/fontFace.css)
+18:20:33	Error: 	"Forbidden" (403) at link https://static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/d0697971-6f58-4597-942e-8beabd1adc87.svg (from https://static.parastorage.com/services/third-party/fonts/Helvetica/fontFace.css)
+18:20:34	Error: 	"" (502) after 2 retries at link https://static.parastorage.com/polyfill/v3/polyfill.min.js?features=default,es6,es7,es2017,es2018,es2019,fetch&flags=gated&unknown=polyfill (from https://cs.wix.com/website-template/view/html/1896?originUrl=https%3A%2F%2Fcs.wix.com%2Fwebsite%2Ftemplates&tpClick=view_button&esi=6b4e7a47-d68f-438d-8b3c-00804849355c)
+
+HTTrack Website Copier/3.49-2 mirror complete in 51 seconds : 140 links scanned, 132 files written (10959084 bytes overall) [9880188 bytes received at 193729 bytes/sec], 2490328 bytes transferred using HTTP compression in 41 files, ratio 51%, 1.0 requests per connection
+(4 errors, 2 warnings, 0 messages)
