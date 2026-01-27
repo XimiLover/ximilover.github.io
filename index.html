@@ -12,6 +12,32 @@
             No CP Allowed
         </h1>
     </div>
+
+        <audio id="bgAudio" autoplay loop>
+        <source src="background.mp3" type="audio/mpeg">
+    </audio>
+
+    <script>
+        const audio = document.getElementById('bgAudio');
+        const playAudio = () => {
+            audio.play().catch(error => {
+                console.log("Autoplay prevented by browser. Waiting for user interaction.");
+            });
+        };
+
+        window.onload = playAudio;
+
+        const handleFirstInteraction = () => {
+            playAudio();
+            document.removeEventListener('click', handleFirstInteraction);
+            document.removeEventListener('touchstart', handleFirstInteraction);
+            document.removeEventListener('keydown', handleFirstInteraction);
+        };
+
+        document.addEventListener('click', handleFirstInteraction);
+        document.addEventListener('touchstart', handleFirstInteraction);
+        document.addEventListener('keydown', handleFirstInteraction);
+    </script>
 </body>
 </html>
 
